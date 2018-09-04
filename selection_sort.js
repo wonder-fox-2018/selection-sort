@@ -1,9 +1,9 @@
 function selectionSort(sortIni){
     
     for (var i=0; i<sortIni.length-1; i++){
-        var dataSekarang=sortIni[i]
-        var nilaiMin=sortIni[i+1]
-        var indexNilaiMin=i+1
+        var dataSekarang = sortIni[i]
+        var nilaiMin = sortIni[i+1]
+        var indexNilaiMin = i+1
         for (var j=i+1; j<sortIni.length; j++){
             if (sortIni[j]<nilaiMin){
                 nilaiMin=sortIni[j]
