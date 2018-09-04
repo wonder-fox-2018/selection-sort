@@ -16,8 +16,8 @@ console.log(selectionSort([33,2,52,106,73]))
 function insertionSort(array){
     for (let i=0;i<array.length;i++) {
         let tmp = array[i]
-        for (let j=0;j<array.length;j++) {
-            if(tmp <= array[j]){
+        for (let j=i+1;j<array.length;j++) {
+            if(tmp >= array[j]){
                 // this is basic swap method
                 tmp = array[j]
                 array[j] = array[i]
