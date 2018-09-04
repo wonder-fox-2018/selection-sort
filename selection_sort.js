@@ -1,6 +1,7 @@
 function selectionSort(arr) {
    
-    for (var i = 0; i < arr.length; i++) {       
+    for (var i = 0; i < arr.length; i++) {
+       
         var min = arr[i]
         var indexAcuan = i
         for (var j = i+1; j < arr.length; j++){
